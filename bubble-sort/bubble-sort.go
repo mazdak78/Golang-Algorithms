@@ -15,7 +15,7 @@ var ToBeSorted [10]Customer = [10]Customer{
 	Customer{Balance : 4, ID : 4, Name: "David"},
 	Customer{Balance : 200, ID : 5, Name: "Susan"},
 	Customer{Balance : 45, ID : 6, Name: "Maria"},
-	Customer{Balance : 34, ID : 7, Name: "David"},
+	Customer{Balance : 34, ID : 7, Name: "Ahmad"},
 	Customer{Balance : 989, ID : 8, Name: "Katty"},
 	Customer{Balance : 1000, ID : 9, Name: "Anai"},
 	Customer{Balance : 1, ID : 10, Name: " Ali"},
