@@ -35,7 +35,6 @@ func BubbleSort(input [10]Customer) [10]Customer{
 		for i := 1; i < n; i++  {
 			// element, swap them
 			if input[i-1].Balance < input[i].Balance {
-
 				// swap values using Go's tuple assignment
 				input[i], input[i-1] = input[i-1], input[i]
 				// set swapped to true - this is important

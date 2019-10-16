@@ -16,6 +16,4 @@ func TestBinarySearch(t *testing.T) {
 	} else{
 		fmt.Printf("Found Customer with name %v at index %v \n", item.Name, index)
 	}
-
-
 }

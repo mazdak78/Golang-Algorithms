@@ -12,5 +12,4 @@ func TestBubbleSort(t *testing.T) {
 	if sortted[9].Balance != 1{
 		t.Errorf("Error: Our first item should be balance with 1000 balance")
 	}
-
 }

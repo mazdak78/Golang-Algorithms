@@ -22,7 +22,6 @@ var ToBeSorted []Customer = []Customer{
 // taken from https://austingwalters.com/merge-sort-in-go-golang/
 // Runs MergeSort algorithm on a slice single
 func MergeSort(slice []Customer) []Customer {
-
 	if len(slice) < 2 {
 		return slice
 	}
@@ -32,7 +31,6 @@ func MergeSort(slice []Customer) []Customer {
 
 // Merges left and right slice into newly created slice
 func Merge(left, right []Customer) []Customer {
-
 	size, i, j := len(left)+len(right), 0, 0
 	slice := make([]Customer, size, size)
 

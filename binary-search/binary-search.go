@@ -20,18 +20,13 @@ var ToBeSearched []Customer = []Customer{
 	Customer{Age : 70, Name: " Ali"},
 }
 
-
 // taken from https://www.dineshkrish.com/binary-search-in-golang/
 func BinarySearch(customers []Customer, left int, right int, age int) (Customer, int)  {
-
 	if right >= left {
 
 		mid := left + (right - left) / 2;
-
 		if customers[mid].Age == age {
-
 			return customers[mid], mid
-
 		}
 
 		if customers[mid].Age > age {
@@ -49,19 +44,14 @@ func BinarySearch(customers []Customer, left int, right int, age int) (Customer,
 func BinarySearch2(numbers []int, left int, right int, item int) (int, int)  {
 
 	if right >= left {
-
 		mid := left + (right - left) / 2;
 
 		if numbers[mid] == item {
-
 			return numbers[mid], mid
-
 		}
 
 		if numbers[mid] > item {
-
 			return BinarySearch2(numbers, left, mid-1, item)
-
 		}
 
 		return BinarySearch2(numbers, mid + 1, right, item)
