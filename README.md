@@ -4,5 +4,6 @@ Practicing Golang on different algorithms. This list get updated little by littl
 
 - Bubble Sort Algorithm
 - Merge Sort Algorithm
+- Quick Sort Algorithm
 - Binary Search Algorithm
  
