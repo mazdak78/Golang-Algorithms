@@ -12,3 +12,4 @@ Practicing Golang on different algorithms. This list get updated little by littl
 - Binary Search Algorithm
 - Jump Search Algorithm
 - Interpolation Search Algorithm
+- Exponential Search Algorithm

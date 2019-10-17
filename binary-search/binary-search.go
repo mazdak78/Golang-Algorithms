@@ -21,7 +21,7 @@ var ToBeSearched []Customer = []Customer{
 }
 
 // taken from https://www.dineshkrish.com/binary-search-in-golang/
-func BinarySearch(customers []Customer, left int, right int, age int) (Customer, int)  {
+func BinarySearchObject(customers []Customer, left int, right int, age int) (Customer, int)  {
 	if right >= left {
 
 		mid := left + (right - left) / 2;
@@ -30,10 +30,10 @@ func BinarySearch(customers []Customer, left int, right int, age int) (Customer,
 		}
 
 		if customers[mid].Age > age {
-			return BinarySearch(customers, left, mid-1, age)
+			return BinarySearchObject(customers, left, mid-1, age)
 		}
 
-		return BinarySearch(customers, mid + 1, right, age)
+		return BinarySearchObject(customers, mid + 1, right, age)
 	}
 
 	return Customer{}, -1;
@@ -41,7 +41,7 @@ func BinarySearch(customers []Customer, left int, right int, age int) (Customer,
 
 
 // function responsible to perform binary search
-func BinarySearch2(numbers []int, left int, right int, item int) (int, int)  {
+func BinarySearchInt(numbers []int, left int, right int, item int) (int, int)  {
 
 	if right >= left {
 		mid := left + (right - left) / 2;
@@ -51,12 +51,12 @@ func BinarySearch2(numbers []int, left int, right int, item int) (int, int)  {
 		}
 
 		if numbers[mid] > item {
-			return BinarySearch2(numbers, left, mid-1, item)
+			return BinarySearchInt(numbers, left, mid-1, item)
 		}
 
-		return BinarySearch2(numbers, mid + 1, right, item)
+		return BinarySearchInt(numbers, mid + 1, right, item)
 	}
 
-	return -1, -1;
+	return -1, -1
 }
 
