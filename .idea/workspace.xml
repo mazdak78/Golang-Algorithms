@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e790f0c4-c951-4937-b41a-10c2b26ee3f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jump-search/jump-search.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jump-search/jump-search_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interpolation-search/interpolation-search.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interpolation-search/interpolation-search_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -30,15 +30,15 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jump-search" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/interpolation-search" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mazoo\go\src\Golang-Algorithms\interpolation-search" />
       <recent name="C:\Users\Mazoo\go\src\Golang-Algorithms\jump-search" />
       <recent name="C:\Users\Mazoo\go\src\Golang-Algorithms\quick-sort" />
       <recent name="C:\Users\Mazoo\go\src\Golang-Algorithms\binary-search" />
       <recent name="C:\Users\Mazoo\go\src\Golang-Algorithms\merge-sort" />
-      <recent name="C:\Users\Mazoo\go\src\Golang-Algorithms\bubble-sort" />
     </key>
   </component>
   <component name="RunDashboard">
