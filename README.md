@@ -1,12 +1,12 @@
 # Golang-Algorithms
 
-Practicing Golang on different algorithms. This list get updated little by little. List of current algorithms::
+Practicing Golang on different algorithms. This list get updated little by little. Comments and collaborations are welcome. List of current algorithms in Go:
 
 ## Sorting Algorithms
 - Bubble Sort Algorithm
 - Merge Sort Algorithm
 - Quick Sort Algorithm
-
+- Insertion Sort Algorithm
 
 ## Searching Algorithms
 - Binary Search Algorithm
