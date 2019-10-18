@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e790f0c4-c951-4937-b41a-10c2b26ee3f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exponential-search/exponential-search.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exponential-search/exponential-search_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insertion-sort/insertion-sort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insertion-sort/insertion-sort_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary-search/binary-search.go" beforeDir="false" afterPath="$PROJECT_DIR$/binary-search/binary-search.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary-search/binary-search_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/binary-search/binary-search_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +29,7 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/exponential-search" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/insertion-sort" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
