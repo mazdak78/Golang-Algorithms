@@ -16,3 +16,4 @@ Practicing Golang on different algorithms. This list get updated little by littl
 
 ## String Searching Algorithms
 - Boyer Moore Horspood Search Algorithm
+- Knuth-Morris-Pratt Search Algorithm
