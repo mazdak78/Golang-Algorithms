@@ -13,3 +13,6 @@ Practicing Golang on different algorithms. This list get updated little by littl
 - Jump Search Algorithm
 - Interpolation Search Algorithm
 - Exponential Search Algorithm
+
+## String Searching Algorithms
+- Boyer Moore Horspood Search Algorithm
