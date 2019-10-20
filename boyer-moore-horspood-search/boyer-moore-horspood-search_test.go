@@ -1,17 +1,15 @@
 package boyer_moore_horspood_search
 
 import (
-	"fmt"
 	"testing"
 )
 
-func TestSearch(t *testing.T) {
+func BenchmarkSearch(b *testing.B) {
+	c := []byte("Hello, we want to find word Guru, so this #phrase has the word Guru.")
+	s := []byte("word Guru")
+	indexes := make([]int, 0, 100)
 
-	indexes := Search("Hello, we want to find word Guru, so this #phrase has the word Guru.", "word Guru")
-
-	fmt.Printf("Occurance: %v\n", len(indexes))
-	for _, i := range indexes  {
-		fmt.Printf("Index: %v\n", i)
+	for i := 0; i < b.N; i++ {
+		Search(c, s, indexes)
 	}
-
 }

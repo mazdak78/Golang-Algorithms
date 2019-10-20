@@ -1,12 +1,11 @@
 package boyer_moore_horspood_search
 
-
-type badMatchTable struct{
-	table [256]int
-	pattern string
+type badMatchTable struct {
+	table   [256]int
+	pattern []byte
 }
 
-func newBadMatchTable(pattern string) *badMatchTable{
+func newBadMatchTable(pattern []byte) *badMatchTable {
 	b := badMatchTable{
 		pattern: pattern,
 	}
@@ -17,32 +16,29 @@ func newBadMatchTable(pattern string) *badMatchTable{
 	return &b
 }
 
-func (b *badMatchTable) generateTable() [256]int{
+func (b *badMatchTable) generateTable() [256]int {
 
-	for i := 0; i < 256 ; i++  {
+	for i := 0; i < 256; i++ {
 		b.table[i] = len(b.pattern)
 	}
 
 	lastPatternByte := len(b.pattern) - 1
 
-	for i := 0; i < lastPatternByte ; i++  {
+	for i := 0; i < lastPatternByte; i++ {
 		b.table[int(b.pattern[i])] = lastPatternByte - i
 	}
 
 	return b.table
 }
 
-func Search(text string, pattern string) []int{
+func Search(text, pattern []byte, indexes []int) []int {
 
-	var indexes []int
-	byteText := []byte(text)
-	bytePattern := []byte(pattern)
+	indexes = indexes[:0]
 
-	textLength := len(byteText)
-	patternLength := len(bytePattern)
+	textLength := len(text)
+	patternLength := len(pattern)
 
-
-	if textLength == 0 || patternLength == 0 || patternLength > textLength{
+	if textLength == 0 || patternLength == 0 || patternLength > textLength {
 		return indexes
 	}
 
@@ -50,15 +46,15 @@ func Search(text string, pattern string) []int{
 
 	mt := newBadMatchTable(pattern)
 	index := 0
-	for index <= (textLength - patternLength)  {
-		for i := lastPatternByte ; byteText[index + i] == bytePattern[i]; i-- {
-			if i == 0{
+	for index <= (textLength - patternLength) {
+		for i := lastPatternByte; text[index+i] == pattern[i]; i-- {
+			if i == 0 {
 				indexes = append(indexes, index)
 				break
 			}
 		}
 
-		index += mt.table[byteText[index + lastPatternByte]]
+		index += mt.table[text[index+lastPatternByte]]
 	}
 
 	return indexes
