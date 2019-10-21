@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e790f0c4-c951-4937-b41a-10c2b26ee3f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boyer-moore-horspood-search/boyer-moore-horspood-search.go" beforeDir="false" afterPath="$PROJECT_DIR$/boyer-moore-horspood-search/boyer-moore-horspood-search.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boyer-moore-horspood-search/boyer-moore-horspood-search_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/boyer-moore-horspood-search/boyer-moore-horspood-search_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boyer-moore-horspood-search/boyer-moore-horspood-search.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boyer-moore-horspood-search/boyer-moore-horspood-search_test.go" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

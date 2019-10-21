@@ -1,4 +1,4 @@
-package boyer_moore_horspood_search
+package boyer_moore_horspool_search
 
 import (
 	"testing"

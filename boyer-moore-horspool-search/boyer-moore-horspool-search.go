@@ -1,4 +1,4 @@
-package boyer_moore_horspood_search
+package boyer_moore_horspool_search
 
 type badMatchTable struct {
 	table   [256]int

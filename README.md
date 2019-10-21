@@ -15,5 +15,5 @@ Practicing Golang on different algorithms. This list get updated little by littl
 - Exponential Search Algorithm
 
 ## String Searching Algorithms
-- Boyer Moore Horspood Search Algorithm
+- Boyer Moore Horspool Search Algorithm
 - Knuth-Morris-Pratt Search Algorithm
